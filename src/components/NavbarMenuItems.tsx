@@ -12,24 +12,24 @@ export default function NavbarMenuItems(){
     return(
         <NavbarContent className="flex gap-4" justify="center">
             <NavbarItem isActive>
-                <Link href="/" className={cn("font-semibold hover:text-green-700 hover:font-bold", pathname === "/" && "text-green-700 font-bold")}>
-                    Home
+                <Link href="/" className={cn("font-semibold hover:text-green-700 hover:font-bold transition-all duration-1000 ease-in-out", pathname === "/" && "text-green-700 font-bold")}>
+                    <span>Home</span>
                 </Link>
             </NavbarItem>
             <NavbarItem isActive>
 
-                <Link href="/shop" className={cn("font-semibold hover:text-green-700 hover:font-bold", pathname === "/shop" && "text-green-700 font-bold")}>
-                    Shop
+                <Link href="/shop" className={cn("font-semibold hover:text-green-700 hover:font-bold transition-all duration-1000 ease-in-out", pathname === "/shop" && "text-green-700 font-bold")}>
+                    <span>Shop</span>
                 </Link>
             </NavbarItem>
             <NavbarItem isActive>
-                <Link href="/about-us" className={cn("font-semibold hover:text-green-700 hover:font-bold", pathname === "/about-us" && "text-green-700 font-bold")}>
-                    About Us
+                <Link href="/about-us" className={cn("font-semibold hover:text-green-700 hover:font-bold transition-all duration-1000 ease-in-out", pathname === "/about-us" && "text-green-700 font-bold")}>
+                    <span>About Us</span>
                 </Link>
             </NavbarItem>
             <NavbarItem isActive>
-                <Link href="/contact-us" className={cn("font-semibold hover:text-green-700 hover:font-bold", pathname === "/contact-us" && "text-green-700 font-bold")}>
-                    Contact Us
+                <Link href="/contact-us" className={cn("font-semibold hover:text-green-700 hover:font-bold transition-all duration-1000 ease-in-out", pathname === "/contact-us" && "text-green-700 font-bold")}>
+                    <span>Contact Us</span>
                 </Link>
             </NavbarItem>
         </NavbarContent>
