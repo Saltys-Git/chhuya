@@ -54,7 +54,7 @@ export function CartSheet() {
     return (
         <Sheet>
             <SheetTrigger asChild>
-                <CiShoppingCart className="w-6 h-6"/>
+                <CiShoppingCart className="w-6 h-6 hover:fill-green-700"/>
             </SheetTrigger>
             <SheetContent className="max-h-screen pb-20">
                 <SheetHeader>

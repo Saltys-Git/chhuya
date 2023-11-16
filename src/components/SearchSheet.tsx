@@ -19,7 +19,7 @@ export function SearchSheet() {
     return (
         <Sheet open={open} onOpenChange={setOpen}>
             <SheetTrigger asChild>
-                <CiSearch className="w-6 h-6"/>
+                <CiSearch className="w-6 h-6 hover:fill-green-700"/>
             </SheetTrigger>
             <SheetContent className="max-h-screen pb-20" side={"top"}>
                 <SheetHeader>

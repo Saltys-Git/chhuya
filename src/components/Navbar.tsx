@@ -24,11 +24,11 @@ export default function NavbarComp() {
                 </NavbarItem>
                 <NavbarItem className="flex cursor-pointer">
                     <Link href="/authentication">
-                        <CiUser className="w-6 h-6"/>
+                        <CiUser className="w-6 h-6 hover:fill-green-700"/>
                     </Link>
                 </NavbarItem>
                 <NavbarItem className="flex cursor-pointer">
-                    <CiHeart className="w-6 h-6"/>
+                    <CiHeart className="w-6 h-6 hover:fill-green-700"/>
                 </NavbarItem>
                 <NavbarItem className="flex cursor-pointer">
                     <CartSheet/>
