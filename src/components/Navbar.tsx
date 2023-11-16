@@ -6,6 +6,7 @@ import {CartSheet} from "@/components/CartSheet";
 import Link from "next/link";
 import {SearchSheet} from "@/components/SearchSheet";
 import NavbarMenuItems from "@/components/NavbarMenuItems";
+import {useRouter} from "next/navigation";
 
 export default function NavbarComp() {
     return (

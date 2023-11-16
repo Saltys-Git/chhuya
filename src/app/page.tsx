@@ -14,9 +14,9 @@ import ProductsGrid from "@/components/ProductsGrid";
 import DealOfDay from "@/components/DealOfDay";
 
 const images = [
-    "/images/sample.jpg",
-    "/images/sample.jpg",
-    "/images/sample.jpg",
+    "/images/slide.jpg",
+    "/images/slide.jpg",
+    "/images/slide.jpg",
 ];
 
 const certifications = [
@@ -32,40 +32,40 @@ export default function Home() {
             <div className="flex flex-row space-x-2 my-4 px-4">
                 <Card className="w-1/3 h-full">
                     <CardBody className="flex flex-col space-y-2">
-                        <Label className="text-base font-semibold w-full text-center">Categories</Label>
+                        <Label className="text-base font-bold w-full text-center">Categories</Label>
                         <Separator/>
-                        <Link href="/shop" className="flex flex-row items-center space-x-2">
+                        <Link href="/shop" className="flex flex-row items-center space-x-2 hover:text-green-700 hover:stroke-green-700 hover:scale-105">
                             <IoFishOutline/> <Label className="cursor-pointer">Salt Water Fish</Label></Link>
                         <Separator/>
-                        <Link href="/shop" className="flex flex-row items-center space-x-2">
+                        <Link href="/shop" className="flex flex-row items-center space-x-2 hover:text-green-700 hover:stroke-green-700 hover:scale-105">
                             <IoFishOutline/> <Label className="cursor-pointer">Fresh Water Fish</Label></Link>
                         <Separator/>
-                        <Link href="/shop" className="flex flex-row items-center space-x-2">
+                        <Link href="/shop" className="flex flex-row items-center space-x-2 hover:text-green-700 hover:stroke-green-700 hover:scale-105">
                             <IoFishOutline/> <Label className="cursor-pointer">Preserved Fish</Label></Link>
                         <Separator/>
-                        <Link href="/shop" className="flex flex-row items-center space-x-2">
+                        <Link href="/shop" className="flex flex-row items-center space-x-2 hover:text-green-700 hover:stroke-green-700 hover:scale-105">
                             <IoFishOutline/> <Label className="cursor-pointer">Fish Fillets</Label></Link>
                         <Separator/>
-                        <Link href="/shop" className="flex flex-row items-center space-x-2">
+                        <Link href="/shop" className="flex flex-row items-center space-x-2 hover:text-green-700 hover:stroke-green-700 hover:scale-105">
                             <IoFishOutline/> <Label className="cursor-pointer">Shellfish</Label></Link>
                         <Separator/>
-                        <Link href="/shop" className="flex flex-row items-center space-x-2">
+                        <Link href="/shop" className="flex flex-row items-center space-x-2 hover:text-green-700 hover:stroke-green-700 hover:scale-105">
                             <IoFishOutline/> <Label className="cursor-pointer">Whole Fish</Label></Link>
                         <Separator/>
-                        <Link href="/shop" className="flex flex-row items-center space-x-2">
+                        <Link href="/shop" className="flex flex-row items-center space-x-2 hover:text-green-700 hover:stroke-green-700 hover:scale-105">
                             <IoFishOutline/> <Label className="cursor-pointer">Seafood Blends and Mixes</Label></Link>
                         <Separator/>
-                        <Link href="/shop" className="flex flex-row items-center space-x-2">
+                        <Link href="/shop" className="flex flex-row items-center space-x-2 hover:text-green-700 hover:stroke-green-700 hover:scale-105">
                             <IoFishOutline/> <Label className="cursor-pointer">Specialty Seafood</Label></Link>
                         <Separator/>
-                        <Link href="/shop" className="flex flex-row items-center space-x-2">
+                        <Link href="/shop" className="flex flex-row items-center space-x-2 hover:text-green-700 hover:stroke-green-700 hover:scale-105">
                             <IoFishOutline/> <Label className="cursor-pointer">Organic and Sustainable
                             Options</Label></Link>
                         <Separator/>
-                        <Link href="/shop" className="flex flex-row items-center space-x-2">
+                        <Link href="/shop" className="flex flex-row items-center space-x-2 hover:text-green-700 hover:stroke-green-700 hover:scale-105">
                             <IoFishOutline/> <Label className="cursor-pointer">Breaded and Ready-to-Cook</Label></Link>
                         <Separator/>
-                        <Link href="/shop" className="flex flex-row items-center space-x-2">
+                        <Link href="/shop" className="flex flex-row items-center space-x-2 hover:text-green-700 hover:stroke-green-700 hover:scale-105">
                             <IoFishOutline/> <Label className="cursor-pointer">Global Seafood Selection</Label></Link>
                     </CardBody>
                 </Card>
