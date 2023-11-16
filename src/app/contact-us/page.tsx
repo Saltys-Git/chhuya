@@ -49,7 +49,7 @@ export default function Home() {
             <Input variant="bordered" type="email" label="Email"/>
             <Textarea placeholder="Type your message here." />
           </div>
-          <Button className="w-[60%] text-white" color="success">Login</Button>
+          <Button className="w-[60%] text-white" color="success">Submit</Button>
         </div>
       </div>
     </div>
