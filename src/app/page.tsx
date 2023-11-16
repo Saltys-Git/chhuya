@@ -122,10 +122,26 @@ export default function Home() {
             </div>
             <div className="mt-24 flex flex-row space-x-6 p-6">
                 <div className="w-1/2 flex flex-row justify-center space-x-16">
-                    <NextImage src={"/images/homepage.jpg"} alt="logo" height={200} width={200}
+                    <div className="flex flex-col relative w-full items-center justify-center">
+                        <Image
+                            isBlurred
+                            src={"/images/homepage.jpg"}
+                            alt="Chhuya Frozen Foods Ltd"
+                            className="object-cover aspect-video h-[500px] mb-16"
+                        />
+                    </div>
+                    <div className="flex flex-col relative w-full items-center justify-center">
+                        <Image
+                            isBlurred
+                            src={"/images/homepage.jpeg"}
+                            alt="Chhuya Frozen Foods Ltd"
+                            className="object-cover aspect-video h-[500px] mt-16"
+                        />
+                    </div>
+                    {/*<NextImage src={"/images/homepage.jpg"} alt="logo" height={200} width={200}
                                className="object-cover mb-16"/>
                     <NextImage src={"/images/homepage.jpeg"} alt="logo" height={200} width={200}
-                               className="object-cover mt-16"/>
+                               className="object-cover mt-16"/>*/}
                 </div>
                 <HomepageButtonShop/>
             </div>
