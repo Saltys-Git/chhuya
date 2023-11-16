@@ -17,6 +17,8 @@ export default function ShopSortingSelectComp(){
               label="Sorting"
               className="max-w-xs"
               variant={"underlined"}
+              color={"success"}
+
           >
               {(value) => <SelectItem key={value.label}>{value.label}</SelectItem>}
           </Select>

@@ -70,7 +70,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="my-36 h-[350px] w-full flex flex-row items-center justify-between bg-[url('../../public/images/about3.jpg')] bg-center bg-cover ">
+      <div className="my-36 h-[350px] w-full flex flex-row items-center justify-between bg-[url('../../public/images/about3.jpg')] bg-fixed bg-center bg-cover ">
         <div className="p-24 w-full h-full bg-slate-500/80 flex flex-col justify-center items-center">
           <Label className="text-4xl font-bold text-center text-white ">Our Mission</Label>
           <Separator className="w-[50px] h-[2px] bg-green-700 mt-2 mb-2"/>

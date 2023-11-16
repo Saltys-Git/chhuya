@@ -28,7 +28,7 @@ export default function Shop() {
                     <div className="w-full h-[1px] bg-slate-200"></div>
                 </div>
                 <div className="w-full flex flex-col space-y-1 my-2 px-2">
-                    <CheckboxGroup
+                    <CheckboxGroup color={"success"}
                         defaultValue={["Saltwater", "Shellfish"]}
                     >
                         {categories.map(category =>{
@@ -47,7 +47,7 @@ export default function Shop() {
                     <div className="w-full h-[1px] bg-slate-200"></div>
                 </div>
                 <div className="w-full flex flex-col space-y-1 my-2 px-2">
-                    <CheckboxGroup
+                    <CheckboxGroup color={"success"}
                     >
                         {price.map(category =>{
                             return(
@@ -67,7 +67,7 @@ export default function Shop() {
                 <div className="grid grid-cols-4 gap-4 p-4">
                     <ProductsGrid variant={"lg"}/>
                 </div>
-                <Pagination total={10} initialPage={1} className="my-4"/>
+                <Pagination total={10} initialPage={1} className="my-4" color={"success"}/>
             </div>
         </div>
     </div>
