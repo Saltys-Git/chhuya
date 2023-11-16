@@ -1,10 +1,11 @@
 import React from "react";
 import {Navbar, NavbarBrand, NavbarContent, NavbarItem} from "@nextui-org/react";
 import {Logo} from "@/components/Logo";
-import {CiHeart, CiSearch, CiUser} from "react-icons/ci";
+import {CiHeart, CiUser} from "react-icons/ci";
 import {CartSheet} from "@/components/CartSheet";
 import Link from "next/link";
 import {SearchSheet} from "@/components/SearchSheet";
+import NavbarMenuItems from "@/components/NavbarMenuItems";
 
 export default function NavbarComp() {
     return (
@@ -15,23 +16,7 @@ export default function NavbarComp() {
                     <p className="font-bold text-inherit">CHHUYA FROZEN FOODS</p>
                 </Link>
             </NavbarBrand>
-            <NavbarContent className="hidden sm:flex gap-4" justify="center">
-                <NavbarItem>
-                    <Link color="foreground" href="/asd">
-                        Features
-                    </Link>
-                </NavbarItem>
-                <NavbarItem isActive>
-                    <Link href="/" aria-current="page">
-                        Customers
-                    </Link>
-                </NavbarItem>
-                <NavbarItem>
-                    <Link color="foreground" href="#">
-                        Integrations
-                    </Link>
-                </NavbarItem>
-            </NavbarContent>
+            <NavbarMenuItems/>
             <NavbarContent justify="end">
                 <NavbarItem className="flex cursor-pointer">
                     <SearchSheet/>

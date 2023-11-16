@@ -3,7 +3,7 @@ import {Label} from "@/components/ui/label";
 import Link from "next/link";
 import {Image} from "@nextui-org/react";
 import NextImage from "next/image";
-import { FaFacebook,FaInstagram  } from "react-icons/fa";
+import { FaFacebookF ,FaInstagram  } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 export default function Footer(){
     return(
@@ -15,7 +15,7 @@ export default function Footer(){
                     <Label className="text-lg font-bold mt-2">Chhuya Frozen Foods Ltd.</Label>
                     <Label className="text-sm">Healthy Touch</Label>
                     <div className="flex flex-row space-x-4 py-4">
-                        <FaFacebook size={20}/>
+                        <FaFacebookF size={20}/>
                         <FaInstagram size={20}/>
                         <FaXTwitter size={20}/>
                     </div>
@@ -43,7 +43,7 @@ export default function Footer(){
                     <Separator className="w-[50px]"/>
                     <div className="flex flex-col space-y-1">
                         <Label className="text-base font-semibold">Chhuya Frozen Foods Ltd.</Label>
-                        <Label className="text-sm">Head Office: House #29, Road # 02, Sector # 07, Uttara, Dhaka-1230.</Label>
+                        <Label className="text-sm">Corporate Office: House #29, Road # 02, Sector # 07, Uttara, Dhaka-1230.</Label>
                         <Label className="text-sm">Email:</Label>
                         <Link href="mailto:chhuyafrozenfoods@gmail.com" className="-mt-4">chhuyafrozenfoods@gmail.com</Link>
                     </div>

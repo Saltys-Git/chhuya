@@ -32,7 +32,7 @@ const SliderControl = (props: Props) => {
                     props.onPrev();
                 }
             }}
-            className={clsx("sm:-top-[320px] left-0 ml-2 -top-[130px] absolute sm:w-[60px] sm:h-[60px] w-5 h-5",
+            className={clsx("sm:-top-[225px] left-0 ml-2 -top-[130px] absolute sm:w-[60px] sm:h-[60px] w-5 h-5",
             !props.canScrollPrev && "hidden")}/>
             <MdArrowForwardIos
                 onClick={() => {
@@ -40,7 +40,7 @@ const SliderControl = (props: Props) => {
                         props.onNext();
                     }
                 }}
-                className={clsx("sm:-top-[320px] right-0 mr-2 -top-[130px] absolute sm:w-[60px] sm:h-[60px] w-5 h-5",
+                className={clsx("sm:-top-[225px] right-0 mr-2 -top-[130px] absolute sm:w-[60px] sm:h-[60px] w-5 h-5",
                     !props.canScrollNext && "hidden")}/>
             {/*<button
                 onClick={() => {
