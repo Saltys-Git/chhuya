@@ -47,7 +47,7 @@ export function SearchSheet() {
                                                           isPressable
                                                           shadow="sm"
                                                           onClick={() => {
-                                                              router.push(`/product/${product.id}`)
+                                                              router.push(`/shop/items/${product.id}`)
                                                               setOpen(false)
                                                           }}>
                                                         <CardBody className="flex flex-row space-x-2">
