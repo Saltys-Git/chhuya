@@ -78,7 +78,7 @@ export default function DealOfDay(){
                                 <Button startContent={<CiShoppingCart
                                     size={20}
                                     className="fill-white"/>}
-                                        color={"success"} className="text-white">
+                                        color={"success"} className="text-white" >
                                     Add to cart</Button>
                                 <Button isIconOnly color="success">
                                     <CiHeart size={20} className="fill-white"/>
