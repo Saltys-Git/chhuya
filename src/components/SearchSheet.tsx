@@ -23,7 +23,7 @@ export function SearchSheet() {
             </SheetTrigger>
             <SheetContent className="max-h-screen pb-20" side={"top"}>
                 <SheetHeader>
-                    <SheetTitle className="w-full text-center">Search Product</SheetTitle>
+                    <SheetTitle className="w-full text-center">Start typing and hit Enter</SheetTitle>
                 </SheetHeader>
                 <div className="w-full flex flex-col space-y-4 justify-center items-center">
                     <Input type="text"

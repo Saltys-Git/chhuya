@@ -14,9 +14,9 @@ import ProductsGrid from "@/components/ProductsGrid";
 import DealOfDay from "@/components/DealOfDay";
 
 const images = [
-    "/images/slide.jpg",
-    "/images/slide.jpg",
-    "/images/slide.jpg",
+    "/images/slide.png",
+    "/images/slide.png",
+    "/images/slide.png",
 ];
 
 const certifications = [
